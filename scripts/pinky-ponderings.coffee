@@ -5,7 +5,7 @@
 
 module.exports = (robot) ->
 
-    PinkyResponse = [ 
+    PinkyResponse = [
         ', but where are we going to find a duck and a hose at this hour?',
         ', but where will we find an open tattoo parlor at this time of night?',
         ', but if we didn\'t have ears, we\'d look like weasels.',
@@ -26,7 +26,6 @@ module.exports = (robot) ->
         ', but I get all clammy inside the tent.',
         ', but I don\'t think Kaye Ballard\'s in the union.',
         ', but, the Rockettes? I mean, it\'s mostly girls, isn\'t it?',
-        ', but pants with horizontal stripes make me look chubby.',
         ', but pantyhose are so uncomfortable in the summertime.',
         ', but it\'s a miracle that this one grew back.',
         ', but first you\'d have to take that whole bridge apart, wouldn\'t you?',
@@ -46,7 +45,6 @@ module.exports = (robot) ->
         ', but if Jimmy cracks corn, and no one cares, why does he keep doing it?',
         ', but don\'t camels spit a lot?',
         ', but how will we get a pair of Abe Vigoda\'s pants?',
-        ', but Pete Rose? I mean, can we trust him?',
         ', but why would Peter Bogdanovich?',
         ', but isn\'t a cucumber that small called a gherkin?',
         ', but if we get Sam Spade, we\'ll never have any puppies.',
@@ -99,7 +97,7 @@ module.exports = (robot) ->
         '. But how would we ever determine Sandra Bullock\'s shoe size?',
         '. But how do we get Twiggy to pose with an electric goose?',
         '. But if I put on two tutu\'s, would I really be wearing a four-by-four?',
-        '… Maybe it\'s all part of some huge, cosmic plot formula!',
+        '. Maybe it\'s all part of some huge, cosmic plot formula!',
         ', but wouldn\'t mustard make it sting?',
         ', but can you use the word \'asphalt\' in polite society?',
         '. (Sprays his breath)',
@@ -107,19 +105,17 @@ module.exports = (robot) ->
         ', but if the sun\'ll come out tomorrow, what\'s it doing right now?',
         ', but aren\'t we out of shaving cream?',
         '. Remind me to tape all our phone calls!',
-        ', but I hear Hillary is the jealous type.',
         ', but Madonna\'s stock is sinking.',
         '. But does \'Chunk o\' Cheesy\'s\' deliver packing material?',
         ', but if we\'re Danish, where\'s the cream cheese? Narf!',
         ', but I don\'t think newspaper will fit in my underoos.',
         ', but after eating newspaper all day, do I really need the extra fiber?',
-        '! But isn\'t a dreadlock hair extension awfully expensive?',
         '. But will anyone other than Eskimos buy blubber-flavored chewing gum?',
         ', but the ointment expired weeks ago!',
         '. But would the villains really have gotten away with it, if it weren\'t for those pesky kids and their dog?',
         ', but how are we gonna teach a goat to dance with flippers on?',
         '! But let\'s use safflower oil this time! It\'s ever so much healthier!',
-        '. But Cream of Gorilla Soup—well, we\'d have to sell it in awfully big cans, wouldn\'t we?',
+        '. But Cream of Gorilla Soup well, we\'d have to sell it in awfully big cans, wouldn\'t we?',
         '. But if he left chocolate bullets instead of silver, they\'d get all runny and gooey!',
         ', but do nuts go with pudding?',
         ', but a codpiece made from a real fish would get smelly after a while, wouldn\'t it?',
@@ -135,21 +131,18 @@ module.exports = (robot) ->
         ', but... but if Charlton Heston doesn\'t eat Soylent Green, what will he eat?',
         '. But where would you get a chicken, 20 yards of spandex and smelling salts at this hour?',
         ', but Ben Vereen never answered our proposition.',
-        ', but wouldn\'t an itsy-bitsy, teeny-weenie, yellow polka-dot one-piece be better suited for my figure?',
-        ', but won\'t it go straight to my hips?!',
         '! But isn\'t it cheating to use glue?',
         '! But if running shoes had little feet, wouldn\'t they need their own shoes?',
         '. But what if the Earl of Essex doesn\'t like burlap pantaloons?',
         ', but should we use dishwashing liquid or cooking oil?',
         ', but would Danish flies work just as well?',
         '! But dressing like twins is so tacky.',
-        ', but practicing docking procedures with a goat at zero G\'s—it\'s never been done!',
+        ', but practicing docking procedures with a goat at zero G\'s - it\'s never been done!',
         '! But shouldn\'t we let the silk worms finish the boxer shorts before we put them on?',
         '. You draw the bath and I\'ll fetch the alka-seltzers and candles!',
         '. But the real trick will be getting Demi Moore out of the creamed corn!',
         ', but if a ham can operate a radio, why can\'t a pig set a VCR?',
         ', you\'d think Lyndon Johnson would have left room for baby-kissing, wouldn\'t you?',
-        '! But won\'t Mr. Hoover notice a missing evening gown?',
         '! But what\'s the use of having a heart-shaped tattoo if it\'s going to be covered by hair?',
         '! But I can\'t decide which is more exciting... Hand or foot pumps, narf!',
         ', but couldn\'t the constant use of a henna rinse lead to premature baldness?',
@@ -160,7 +153,7 @@ module.exports = (robot) ->
         '! But do I have what it takes to be the \'Lord of the Dance\'?',
         '! How much deeper would the ocean be if there weren\'t sponges down there?',
         '! But doing a clog dance in actual clogs will give me awful blisters.',
-        ', but nose rings are kinda passé by now.',
+        ', but nose rings are kinda passe by now.',
         ', but where are we going to get a trained octopus at this time of night?',
         '! But no more eels in jelly for me, thanks. I like my gelatin after lunch.',
         ', but I didn\'t know 90210 was a real zip code! Will Tori be there?',
@@ -180,4 +173,4 @@ module.exports = (robot) ->
     ]
 
     robot.hear /are you pondering what i/i, (res) ->  
-        res.send 'I think so, Brain' + res.random PinkyResponse 
+        res.send 'I think so, Brain' + res.random PinkyResponse
