@@ -179,5 +179,5 @@ module.exports = (robot) ->
         ', but, oh, I\'d have to say the odds of that are terribly slim, honestly.  I mean, really, when have I ever been pondering what you\'ve been pondering?  Never. right? So, what are the chances that this time, I\'m pondering what you\'re pondering?  Next to nil. Right. Well, that\'s exactly what I\'m thinking, too.  Poit, I guess I _am_ pondering what you\'re pondering!'
     ]
 
-    robot.hear /are you pondering what i\'?m pondering/i, (res) ->  
+    robot.hear /are you pondering what i(\')?m pondering/i, (res) ->  
         res.send 'I think so, Brain' + res.random PinkyResponse 
