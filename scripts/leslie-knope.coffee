@@ -1,5 +1,6 @@
 # Description:
 #   Leslie Knope compliment generator
+#   Author: @hungrier.robot
 
 
 module.exports = (robot) ->
