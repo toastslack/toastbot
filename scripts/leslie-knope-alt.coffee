@@ -12,7 +12,6 @@ module.exports = (robot) ->
         'amicable',
         'brave',
         'broad-minded',
-        'careful',
         'communicative',
         'conscientious',
         'convivial',
@@ -52,7 +51,6 @@ module.exports = (robot) ->
         'sociable',
         'sympathetic',
         'tidy',
-        'unassuming',
         'versatile',
         'willing'
     ]
@@ -97,7 +95,6 @@ module.exports = (robot) ->
         'practical',
         'quick-witted',
         'rational',
-        'reserved',
         'romantic',
         'self-disciplined',
         'sensitive',
@@ -155,8 +152,20 @@ module.exports = (robot) ->
         'electromagnet'
     ]
 
-    robot.hear /knope me/i, (res) ->	
-        firstAdj = res.random firstAdjectives
-        secondAdj = res.random secondAdjectives
-        noun = res.random nouns
-        res.send 'Oh, ' + res.message.user.name + ', you ' + firstAdj + ', ' + secondAdj + ' ' + noun + '.'
+    robot.hear /knope (.*)/i, (res) ->	
+        send = false
+        target = res.match[1]
+
+        if target is "me"
+            send = true
+            targetName = res.message.user.name
+        else if target.lastIndexOf('@', 0) is 0
+            send = true
+            targetName = target
+                       
+        if send
+            firstAdj = res.random firstAdjectives
+            secondAdj = res.random secondAdjectives
+            noun = res.random nouns
+            res.send 'Oh, ' + targetName + ', you ' + firstAdj + ', ' + secondAdj + ' ' + noun + '.'
+            
