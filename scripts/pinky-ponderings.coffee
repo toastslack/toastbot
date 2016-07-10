@@ -1,7 +1,7 @@
 # Description:
 #   Pinkys Ponderings generator
 #   Source: http://pinkyandthebrain.wikia.com/wiki/Are_You_Pondering_What_I%27m_Pondering%3F
-#   Author: @kama_letter_i_no_work
+#   Author: @kamala
 
 module.exports = (robot) ->
 

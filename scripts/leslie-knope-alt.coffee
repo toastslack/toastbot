@@ -152,20 +152,19 @@ module.exports = (robot) ->
         'electromagnet'
     ]
 
-    robot.hear /knope (.*)/i, (res) ->	
+    robot.hear /knope (@?\w+)/i, (res) ->	
         send = false
         target = res.match[1]
 
-        if target is "me"
+        if target.lastIndexOf('me', 0) is 0
             send = true
             targetName = res.message.user.name
         else if target.lastIndexOf('@', 0) is 0
             send = true
             targetName = target
-                       
+               
         if send
             firstAdj = res.random firstAdjectives
             secondAdj = res.random secondAdjectives
             noun = res.random nouns
             res.send 'Oh, ' + targetName + ', you ' + firstAdj + ', ' + secondAdj + ' ' + noun + '.'
-            
