@@ -167,4 +167,4 @@ module.exports = (robot) ->
             firstAdj = res.random firstAdjectives
             secondAdj = res.random secondAdjectives
             noun = res.random nouns
-            res.send 'Oh, ' + targetName + ', you ' + firstAdj + ', ' + secondAdj + ' ' + noun + '.'
+            res.send "Oh, #{targetName}, you #{firstAdj}, #{secondAdj} #{noun}."
