@@ -8,8 +8,8 @@ in the description so other toasties can thank you properly!
 
 ## User-added scripts
 
-knope [me|@someone]    : returns a randomized Leslie Knope style compliment
-are you pondering what : returns one of Pinky's many responses to Brain's
+- knope [me|@someone]    : returns a randomized Leslie Knope style compliment
+- are you pondering what : returns one of Pinky's many responses to Brain's
                          question, "Are you pondering what I'm pondering?"
 
 ## General
