@@ -2,7 +2,7 @@
 #  Toastbot says hello.
 #
 # Commands:
-#  (hi|hello|hey) - reply with a greeting
+#  toastbot (hi|hello|hey) - reply with a greeting
 #
 # Author:
 #  @hungrier.robot
