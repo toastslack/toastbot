@@ -1,6 +1,12 @@
 # Description:
 #   Leslie Knope style random compliment generator
-#   Author: @hungrier.robot
+#
+# Commands:
+#   knope me - reply to sender with a Leslie Knope style compliment
+#   knope @someone - reply with a Leslie Knope style compliment for @someone
+#
+# Author:
+#   @hungrier.robot
 
 
 module.exports = (robot) ->

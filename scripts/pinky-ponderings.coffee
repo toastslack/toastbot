@@ -1,7 +1,12 @@
 # Description:
 #   Pinkys Ponderings generator
 #   Source: http://pinkyandthebrain.wikia.com/wiki/Are_You_Pondering_What_I%27m_Pondering%3F
-#   Author: @kamala
+#
+# Commands:
+#   are you pondering what i - reply with one of Pinky's responses to Brain
+#
+# Author:
+#   @kamala
 
 module.exports = (robot) ->
 

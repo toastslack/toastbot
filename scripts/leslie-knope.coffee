@@ -1,6 +1,11 @@
 # Description:
 #   Leslie Knope compliment generator
-#   Author: @hungrier.robot
+#
+# Commands:
+#   classic knope - reply with a classic Leslie Knope compliment
+#
+# Author:
+#   @hungrier.robot
 
 
 module.exports = (robot) ->

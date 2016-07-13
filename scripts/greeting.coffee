@@ -1,6 +1,12 @@
-# toastbot greeting.
+# Description:
+#  Toastbot says hello.
 #
-# (hi|hello) - say hi to toastbot
+# Commands:
+#  (hi|hello|hey) - reply with a greeting
+#
+# Author:
+#  @hungrier.robot
+
 
 module.exports = (robot) ->
   robot.respond /hi|hello|hey/i, (msg) ->
