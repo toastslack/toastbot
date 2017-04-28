@@ -11,6 +11,7 @@ in the description so other toasties can thank you properly!
 - knope [me|@someone]    : returns a randomized Leslie Knope style compliment
 - are you pondering what : returns one of Pinky's many responses to Brain's
                          question, "Are you pondering what I'm pondering?"
+- toastbot romance       : returns a randomized romance novel plot
 
 ## General
 toastbot is a chat bot built on the [Hubot][hubot] framework. It was
