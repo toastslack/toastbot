@@ -56,7 +56,7 @@ module.exports = (robot) ->
       'An artist whose work routinely shocks critics and museum-goers alike',
       'A caterer who always blends into the background at fancy events',
       'A truck driver who looks just like his famous cousin',
-      'A musician couple seeking a third member of their band ... and their marriage',
+      'A musician couple seeking a third member of their band ... and their marriage'
 
     ]
 
