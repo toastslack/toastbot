@@ -43,7 +43,20 @@ module.exports = (robot) ->
       'A warrior princess from another dimension',
       'Bond, Jamie Bond (one of 007\'s many abandoned offspring)',
       'A gossip columnist for the hottest scandal sheet in town',
-      'A woman disguised as her seafaring brother'
+      'A master swordswoman seeking an apprentice',
+      'The polyamorous wife of a hibernating bear shifter',
+      'A bride who\'s just been left at the altar',
+      'The next up and coming rodeo champion of Wyoming',
+      'A Duke who is rich in land but not in love',
+      'The anonymous author of a series of scandalous novels',
+      'A reclusive bonsai artist',
+      'A woman disguised as her seafaring brother',
+      'The owner of an Instagram-famous cat',
+      'The last remaining High Priest of an ancient god',
+      'An artist whose work routinely shocks critics and museum-goers alike',
+      'A caterer who always blends into the background at fancy events',
+      'A truck driver who looks just like his famous cousin',
+      'A musician couple seeking a third member of their band ... and their marriage',
 
     ]
 
@@ -82,8 +95,14 @@ module.exports = (robot) ->
       'a time-travelling architect',
       'a notoriously hard-to-please restaurant critic',
       'a theater makeup artist',
+      'THRAEZEON, SKULLPRINCE OF THE DARKWASTES',
       'an international jewel thief in disguise as a Belgian nun',
       'a kindhearted country veterinarian',
+      'a noble Lady in disguise as a peasant boy',
+      'an octogenarian who just wants to tend his herb garden',
+      'Karen from accounting',
+      'a fashion designer whose latest show tragically flopped',
+      'a librarian who rolls her eyes at the \'sexy librarian\' trope',
       'a pirate who sets their beard on fire to intimidate their foes'
     ]
 
@@ -143,6 +162,16 @@ module.exports = (robot) ->
       'team up to write and illustrate a graphic novel',
       'are partnered in a three-legged race',
       'are each other\'s sworn enemies',
+      'are, unbeknownst to each other, entering their third year of anonymous correspondence',
+      'have known each other since childhood, but only admit their feelings years later',
+      'disguise themselves as royalty to attend a ball',
+      'must share the jackpot after playing the same lottery numbers',
+      'can\'t believe they\'ve just run into one another AGAIN',
+      'seek one another\'s fashion advice',
+      'inspire one another in their Afrofuturist writers\' group',
+      'enter an arms race of increasingly complicated coffee orders',
+      'strongly disagree in their book club but get along just fine under the sheets',
+      'finally take one another\'s masks off',
       'are trapped in a miles-long check-out queue'
     ]
 
